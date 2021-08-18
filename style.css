@@ -1,0 +1,19 @@
+.container{
+    margin: 30px auto;
+    width: 1110px;
+}
+
+#block1, #block2, #block3, #block4, #block5, #block6, #block7, #block8, #block9{
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    border: 3px solid black;
+    text-align: center;
+} 
+
+img{
+    padding-top: 10px;
+    width: 100px;
+}
