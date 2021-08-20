@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Info from './Info'
 
 function App() {
+  let album_name = 'Highway to Hell';
+  let group_name = 'AC/DC';
+  let year = 1979;
+  let pict = "https://upload.wikimedia.org/wikipedia/ru/5/53/HighwayHellCover.jpg"
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Info album_name = {album_name} group_name = {group_name} year = {year} pict = {pict} />
     </div>
   );
 }

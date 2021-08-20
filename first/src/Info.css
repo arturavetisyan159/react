@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background: #c0c0c0;
+}
+
+.alb{
+    margin: 50px;
+    border: 3px solid black;
+    padding: 20px;
+    background: #f5deb3;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
